@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/locationListPage"
+        android:enabled="true"
+        android:icon="@drawable/location_tab_24"
+        android:title="@string/locations_bottom_menu_option"/>
+
+    <item
+        android:id="@+id/facesPage"
+        android:enabled="true"
+        android:icon="@drawable/faces_tab_24"
+        android:title="@string/faces_bottom_menu_option"/>
+</menu>

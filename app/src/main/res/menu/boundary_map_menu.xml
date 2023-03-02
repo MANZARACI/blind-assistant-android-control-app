@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionReset"
+        android:title="@string/boundary_menu_reset"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/actionSave"
+        android:title="@string/boundary_menu_save"
+        app:showAsAction="ifRoom" />
+</menu>
