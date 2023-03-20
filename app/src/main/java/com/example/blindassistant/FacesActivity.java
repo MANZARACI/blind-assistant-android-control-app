@@ -240,7 +240,7 @@ public class FacesActivity extends AppCompatActivity implements FaceRecyclerView
         };
 
         stringRequest.setRetryPolicy(new DefaultRetryPolicy(
-                60000, //60 seconds
+                120000, //120 seconds
                 0,
                 DefaultRetryPolicy.DEFAULT_BACKOFF_MULT
         ));
